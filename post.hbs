@@ -66,13 +66,14 @@
         <script src="/assets/js/typed.min.js"></script>
         <script>
             $(function(){
+                $('.text').addClass('revealed');
                 $(".title span").typed({
                     strings: ["{{title}}"],
                     typeSpeed: 30,
                     startDelay: 150,
                     backDelay: 600,
                     onStringTyped: function () {
-                        $('.text').addClass('revealed');
+                        
                     }
                 });
             });
