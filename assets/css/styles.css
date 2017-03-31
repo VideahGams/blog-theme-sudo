@@ -133,12 +133,7 @@ header.blog-title {
     .content .post .text.revealed {
       opacity: 1; }
     .content .post .text a {
-      color: #f1436d;
-      text-decoration: none;
-      transition: all 1s; }
-      .content .post .text a:hover {
-        filter: blur(4px);
-        transform: scaleY(1.1) scaleX(1); }
+      color: #f1436d; }
   .content .author {
     text-align: center;
     font-weight: 200; }
